@@ -12,12 +12,11 @@ while True:
 
         if ilosc_elementow1 == ilosc_elementow2:
             print("Listy mają ten sam rozmiar")
-            continue
 
         a = random.sample(range(do1), ilosc_elementow1)
         b = random.sample(range(do2), ilosc_elementow2)
 
-        c = [i for i in a for f in b if ilosc_elementow1 != ilosc_elementow2 if i == f]
+        c = [i for i in a for f in b if i == f]
         print("Wspólne elementy obu list to: ", c)
         break
 
