@@ -6,7 +6,7 @@
 import random
 import string
 
-lista_hasel = ["siema123", "elo123", "kappa123", "dis400"]
+lista_hasel = ["test1", "test2", "test3", "test4"]
 
 
 def main(litery, liczby, znaki):
