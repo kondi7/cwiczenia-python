@@ -11,7 +11,6 @@ r_html = r.text
 soup = BeautifulSoup(r_html, 'html.parser')
 
 for heading in soup.find_all('h3'):
-    heading_data = heading.text
-    header_list.append(heading_data)
+    header_list.append(heading.text)
 
 print(header_list)
