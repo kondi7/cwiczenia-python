@@ -17,7 +17,7 @@ def main(litery, liczby, znaki):
     kombinacja = alfabet + buba + znaki_specjalne
     random.shuffle(kombinacja)
     haslo = "".join(kombinacja)
-    print("Wygenerowane haslo to: ", '\n', haslo)
+    print("Wygenerowane haslo to:", haslo)
 
 
 def how_strong_password(haslo):
